@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <style>
+    body{
+        margin: 0;
+    }   
+    header{
+        background-color: #000;
+        height: 100px;
+        width: 100%;
+    }
+    footer{
+        background-color: #000;
+        height: 100px;
+        width: 100%;
+    }
+
+
+
+
+    .image-container {
+            width: 100%;
+    }
+    .uncompressed-image {
+        width: 100%;
+        height: 700px;
+        max-width: 100%; 
+        max-height: 100%;
+        opacity: 0.6;
+    }
+    </style>
+</head>
+<body>
+    <header></header>
+    <div class="image-container position-relative">
+        <img class="uncompressed-image" src="/image/7f44de91-d667-5d0e-bcf9-4a99453598cc.jpg" alt="">
+        <div class="position-absolute" style="bottom: 250px; left:150px;">
+            <h1 class=" fw-bolder display-3 fst-italic" >還是無家可歸嗎?</h1>
+            <h3 class="mt-5 mb-0 fw-bolder">立即查看所有物件吧</h3>
+            <h3 class="mt-3 mb-0 fw-bolder">所有屋件總類超多</h3>
+            <button class="btn btn-primary mt-5">查看所有屋件</button>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center  display-4 fw-bolder mt-5">熱門刊登物件</div>
+    <div class="d-flex justify-content-between " style="padding: 0 300px; margin: 100px 0; ">
+        <div class="card" style="width: 21rem;">
+            <img src="/image/w=600&h=600&r=21995.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 21rem;">
+            <img src="/image/w=600&h=600&r=21995.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 21rem;">
+            <img src="/image/w=600&h=600&r=21995.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+    </div>
+    <div class="d-flex justify-content-center  display-4 fw-bolder mt-5">三步驟快速預約看屋</div>
+    <div class="d-flex justify-content-between " style="padding: 0 300px; margin: 100px 0; ">
+        <div>
+            <div class="d-flex  justify-content-center  fs-3 ">第一步</div>
+            <div class="card" style="width: 21rem;">
+                <img src="/image/w=600&h=600&r=21995.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="d-flex  justify-content-center  fs-3 ">第二步</div>
+            <div class="card" style="width: 21rem;">
+                <img src="/image/w=600&h=600&r=21995.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div>
+            <div class="d-flex  justify-content-center  fs-3 ">第三步</div>
+            <div class="card" style="width: 21rem;">
+                <img src="/image/w=600&h=600&r=21995.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mx-auto my-5 " style="width: 1000px;"> 
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <footer></footer>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</html>
